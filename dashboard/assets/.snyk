@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-08T18:51:26.900Z'
+  'npm:hoek:20180212':
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-08T18:51:26.900Z'
+  'npm:stringstream:20180511':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-08T18:51:26.900Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-08T18:51:26.900Z'
