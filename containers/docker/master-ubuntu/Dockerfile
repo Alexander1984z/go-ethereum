@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 
 ENV PATH=/usr/lib/go-1.9/bin:$PATH
 
